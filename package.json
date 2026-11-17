@@ -1,0 +1,15 @@
+{
+  "name": "front-end-challenge-root",
+  "private": true,
+  "description": "NFT Marketplace - Front End Challenge",
+  "scripts": {
+    "dev": "npm run --prefix nft-marketplace dev",
+    "dev:mocks": "npm run --prefix nft-marketplace dev:mocks",
+    "build": "npm run --prefix nft-marketplace build",
+    "preview": "npm run --prefix nft-marketplace preview",
+    "typecheck": "npm run --prefix nft-marketplace typecheck",
+    "lint": "npm run --prefix nft-marketplace lint",
+    "test:e2e": "npm run --prefix nft-marketplace test:e2e",
+    "lighthouse": "npm run --prefix nft-marketplace lighthouse"
+  }
+}
